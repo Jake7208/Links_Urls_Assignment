@@ -8,6 +8,8 @@ $id = pid();
 
 <?php 
 echo "Page id:" . $id;
-
+if ($id == 1) {
+    echo "Welcome to my page."
+}
 ?>
 <?php include(SHARED_PATH . '/footer_links.php'); //links to footer to close out body and html tags?>
